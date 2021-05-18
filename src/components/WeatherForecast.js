@@ -5,7 +5,7 @@ import Rain from '../images/heavyRain.svg';
 import Cloud from '../images/clouds.svg';
 import Moon from '../images/moon.svg';
 
-const WeatherForecast = ({ weatherTime, weatherTemp, icon, condition }) => {
+const WeatherForecast = ({ weatherTime, weatherTemp, condition }) => {
   var icon =
     'https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Blue_Square.svg/781px-Blue_Square.svg.png';
   switch (condition) {
